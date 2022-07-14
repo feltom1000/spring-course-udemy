@@ -10,7 +10,7 @@ public class Cliente {
 	private String nombre;
 	
 	@Value("${cliente.apellido}")
-	private String apelliddo;
+	private String apellido;
 
 	public String getNombre() {
 		return nombre;
@@ -20,12 +20,12 @@ public class Cliente {
 		this.nombre = nombre;
 	}
 
-	public String getApelliddo() {
-		return apelliddo;
+	public String getApellido() {
+		return apellido;
 	}
 
-	public void setApelliddo(String apelliddo) {
-		this.apelliddo = apelliddo;
+	public void setApellido(String apelliddo) {
+		this.apellido = apelliddo;
 	}
 
 }
